@@ -1,0 +1,26 @@
+<style>
+.kse-live{display:flex;gap:12px;max-width:1800px;margin:0 auto}
+.kse-live-player{position:relative;flex:1 1 0;padding-top:56.25%;background:#000;border-radius:10px;overflow:hidden}
+.kse-live-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+.kse-live-tag{position:absolute;top:8px;left:8px;z-index:2;background:rgba(0,0,0,.65);color:#fff;font-size:13px;padding:3px 8px;border-radius:6px}
+.kse-live-note{max-width:1800px;margin:10px auto 0;font-size:13px;line-height:1.8;color:#555;background:none}
+@media (max-width:700px){.kse-live{flex-direction:column}}
+</style>
+
+<div class="kse-live">
+  <div class="kse-live-player"><span class="kse-live-tag">A 場地</span>
+    <iframe src="https://www.youtube.com/embed/gbW8A-KV_jY?autoplay=1&amp;mute=1&amp;playsinline=1&amp;rel=0"
+      title="A 場地" referrerpolicy="strict-origin-when-cross-origin"
+      allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+  </div>
+  <div class="kse-live-player"><span class="kse-live-tag">B 場地</span>
+    <iframe src="https://www.youtube.com/embed/pZvWMeQ8DY4?autoplay=1&amp;mute=1&amp;playsinline=1&amp;rel=0"
+      title="B 場地" referrerpolicy="strict-origin-when-cross-origin"
+      allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="kse-live-note">
+  1.預設靜音，請點喇叭圖示取消靜音，建議只開一邊的聲音。<br>
+  2.直播畫面比現場延遲數秒，出價以現場為準。
+</div>
